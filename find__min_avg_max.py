@@ -32,7 +32,7 @@ if len(sys.argv) == 2:
             print "unsupported file extension or folder option"
             exit(1)
 else:
-        print "give exactly one argument which is the planfile path"
+        print "give exactly one argument which is the json folder or the json file"
         exit(1)
 
 print(vals)     # Just to ensure it worked
